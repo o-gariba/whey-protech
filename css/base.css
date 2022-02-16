@@ -16,6 +16,72 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*header*/
+
+header {
+    background: #FEE958;
+    padding: 40px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    height: 60px;
+   
+   
+}
+
+.botao {
+    color: #FEE958;
+    background: #000;
+    text-align: center;
+    position: relative;
+    left: 950px;
+    top: 10px;
+    
+    display: inline;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    padding: 0.2rem 1rem;
+    border-color:#000;
+    border-radius: 15px;
+   
+}
+
+.botao:hover {
+
+    color: #E33B3B;
+    cursor: pointer;
+    
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 22px;
+    
+}
+
+nav a {
+    color: #000;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #E33B3B;
+}
+
+
 .container {
     padding-left: 6%;
     padding-right: 6%;
