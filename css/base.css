@@ -74,7 +74,7 @@ body {
     margin-bottom: 2rem;
 
     border-radius: 5px;
-    box-shadow: 0 2px 10px 2px #00000010;
+    box-shadow: 0 2px 10px 5px #00000030;
 }
 
 .cartao--basico{
@@ -102,18 +102,14 @@ body {
 }
 
 .cartao__botao {
-    font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 
-    width: 60%;
+    width: 70%;
 
     padding: 1rem 1rem 2rem 1rem;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    /* margin-left: 25%; */
+    margin: 1rem 0;
 
-    display: flex;
     align-self: center;
 }
 
@@ -129,8 +125,9 @@ body {
 
     margin-bottom: .5rem;
 
-    border-radius: 15px;
-    box-shadow: 0 2px 10px 2px #00000030;
+    /* border-radius: 15px; */
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 2px 10px 2px #00000020;
 }
 
 .botao--basico {
@@ -141,6 +138,14 @@ body {
 .botao--completo {
     background-color: var(--vermelho-plano-completo);
     color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items: normal; */
+    }
 }
 
 /* FIM DOS PLANOS E BENEFICIOS */
