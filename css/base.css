@@ -1,0 +1,22 @@
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --cinza-claro: #F8F8F8;
+    --cinza-escuro: #EEE;
+    --amarelo-footer-rodape: #FEDF1170;
+    --amarelo-principal: #FEDF11;
+    --amarelo-pilares: #FEDF1175;
+    --verde-plano-basico: #60D8D1;
+    --vermelho-plano-completo: #E33B3B;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
