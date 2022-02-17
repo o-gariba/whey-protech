@@ -88,7 +88,9 @@ ul h2{
     
     }
     
-    ul h1{
+   
+
+    .titulo1{
         text-align: justify ;
         font-size:30px;
         font-weight: 500;
@@ -97,7 +99,7 @@ ul h2{
         right: 790px;
         
     }
-    ul h2{
+    .titulo2{
         text-align: justify;
         font-size: 20px;
         position: absolute; 
