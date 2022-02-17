@@ -110,6 +110,10 @@ body {
     align-self: center;
 }
 
+.cartao__botao:hover {
+    transform: scale(1.15);
+}
+
 .cartao__titulo {
     font-weight: 400;
     font-size: 2.5rem;
