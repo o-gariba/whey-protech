@@ -20,3 +20,91 @@ body {
     padding-left: 6%;
     padding-right: 6%;
 }
+
+/*Titulo e Logo*/
+
+.logo{
+    width: 100%;
+    margin: 5%;
+}
+
+.caixa{
+   /* position: absolute;*/
+    top: 90px;
+    right: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FEDF11;
+}
+    
+section{
+    background-color: #FEDF11;
+}
+
+.navegacao{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul h1 {
+    font-size: max(30px, 5vw);
+    font: weight 500px;
+}
+
+ul h2{
+    font-size: 25px;
+    padding: 18px;
+}
+
+@media screen and (min-width: 1024px) { 
+
+   .caixa{     
+    width: 500px;
+    display: inline;
+    padding-left: 100%;
+    padding-right: 100%;
+    position: absolute;
+}
+
+    .logo{
+        position: relative ; 
+        top:0px; 
+        right: -200px;
+        width: 65%;
+    }
+   
+  
+    
+    section{
+        
+        column-count:2 ;
+        column-width: 100em;
+    
+    }
+    
+   
+
+    .titulo1{
+        text-align: justify ;
+        font-size:30px;
+        font-weight: 500;
+        position: absolute; 
+        top: 50px; 
+        right: 790px;
+        
+    }
+    .titulo2{
+        text-align: justify;
+        font-size: 20px;
+        position: absolute; 
+        top: 70px; 
+        right: 845px;
+    }
+    
+} 
