@@ -160,7 +160,7 @@ color: #FEE958;
     
 }
 
-@media (min-width: 500px){
+@media screen and (min-width: 500px){
 .botao {
     color: #FEE958;
     background: #000;
@@ -209,7 +209,8 @@ color: #FEE958;
 .opcoes_nav_sumir:hover {
     color: #E33B3B;
     cursor: pointer;
-} 
+}
+}
 
 /*   FIM DO HEADER   */
     
