@@ -108,3 +108,107 @@ ul h2{
     }
     
 } 
+
+/* Header */
+
+.menu_nav {
+    
+    background: #FEE958;
+    height: 83px; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    font-size: 10px;
+    justify-content: end;
+   
+}
+
+
+
+.botao{
+
+color: #FEE958;
+    background: #000;
+    
+    display: flex;
+    height: 45px;
+    width: 120px;
+    font-size: 20px;
+    margin: 0 30px 0 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    left: 20px;
+
+    border-color:#000;
+    border-radius: 15px;
+
+}
+
+
+.opcoes_nav_sumir{
+
+    display: none;
+}
+
+.opcoes_nav {
+    display: inline;
+    margin: 0 60px 0 0;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+@media (min-width: 500px){
+.botao {
+    color: #FEE958;
+    background: #000;
+    
+    display: flex;
+    height: 52px;
+    width: 175px;
+    font-size: 30px;
+    margin: 0 100px 0 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+
+    border-color:#000;
+    border-radius: 15px;
+}
+   
+ .botao:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+} 
+
+.opcoes_nav_sumir {
+    display: inline;
+    margin: 0 40px;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.opcoes_nav {
+    display: inline;
+    margin: 0 40px;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+
+.opcoes_nav:hover {
+    color: #E33B3B;
+    cursor: pointer;
+} 
+
+.opcoes_nav_sumir:hover {
+    color: #E33B3B;
+    cursor: pointer;
+} 
+
+/*   FIM DO HEADER   */
