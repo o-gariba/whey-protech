@@ -15,6 +15,48 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.containerFooter {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* vertical-align: middle; */
+    padding: 1rem 1rem;
+    /* position: absolute; */
+    background: #FEDF11BF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.rodape__redesSociais {
+    margin: 1rem;
+    /* display: flex; */
+}
+
+.rodapeItens2{
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+}
+
+.rodapeItens3{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.rodape__midia{
+    font-size: 2 rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: .5rem;
+}
+.rodape__midia-icone{
+    width: 10%;
+    padding-right: 0.5rem;
+}
 
 .container {
     padding-left: 6%;
