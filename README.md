@@ -47,5 +47,5 @@ Estes requisitos precisavam ser atendidos em versão DESKTOP, fomos além e deci
 <p><a href="https://github.com/Rtpessoa">Ruth (@Rtpessoa)</a></p>
 <p><a href="https://github.com/IsadoraFDias">Isadora (@IsadoraFDias)</a></p>
 <p><a href="https://github.com/FabiaAz">Fabiane (@FabiaAz)</a></p>
-<p><a href="">Julio (@)</a></p>
+<p><a href="https://github.com/julio2116">Julio (@julio2116)</a></p>
 <p><a href="https://github.com/o-gariba">Pedro (@o-gariba)</a></p>
