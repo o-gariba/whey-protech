@@ -267,17 +267,17 @@ color: #FEE958;
 }
 
 .bem-estar__item--social{
-    background-image: url(../bem_estar/icone-social.png);
+    background-image: url(../assets/icone-social.png);
     background-size: 10%;
 }
 
 .bem-estar__item--fisico{
-    background-image: url(../bem_estar/icone-fisico.png);
+    background-image: url(../assets/icone-fisico.png);
     background-size: 10%;
 }
 
 .bem-estar__item--emocional{
-    background-image: url(../bem_estar/icone-emocional.png);
+    background-image: url(../assets/icone-emocional.png);
     background-size: 10%;
 }
 
@@ -525,19 +525,19 @@ color: #FEE958;
     
 /*   FOOTER   */
     
-    .containerFooter {
-    /* margin: auto; */
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    /* vertical-align: middle; */
-    padding: 1rem 1rem;
-    /* position: absolute; */
-    background: #FEDF11BF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+.containerFooter {
+/* margin: auto; */
+width: 100%;
+display: flex;
+flex-flow: row-reverse wrap;
+justify-content: space-around;
+align-items: center;
+/* vertical-align: middle; */
+padding: 1rem 1rem;
+/* position: absolute; */
+background: #FEDF11BF;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
 }
 
 .rodape__redesSociais {
@@ -563,9 +563,8 @@ color: #FEE958;
     justify-content: center;
     padding: .5rem;
 }
+
 .rodape__midia-icone{
     width: 10%;
     padding-right: 0.5rem;
 }
-    
-/*   FIM DO FOOTER   */
