@@ -124,40 +124,46 @@ html,body {
 
 /*Titulo e Logo*/
 
+.title__desktop{
+    display: none;
+}
+
 .logo{
     width: 90%;
-    /* margin: 5%; */
+    margin: 5%;
 }
 
 .caixa{
-   /* position: absolute; */
-    /* top: 90px; */
-    /* right: -250px; */
+    /* position: absolute; */
+    top: 90px;
+    right: -250px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
-    background-color: var(--amarelo-principal);
-    padding: .75rem;
+    /* background-color: var(--amarelo-principal); */
+    /* column-width: 100em; */
+    /* padding: .75rem; */
+    /* height: 15%; */
 }
     
 /* section{
     background-color: #FEDF11;
 } */
 
-/* .navegacao{
+.navegacao{
     position: absolute;
     width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 
 .titulo1 {
     text-align: center ;
-    font-size: 2.3rem;
-    font-weight: 400;
+    font-size: max(30px, 5vw);
+    font-weight: 500;
     /* padding:.9rem 0; */
 }
 
@@ -165,29 +171,37 @@ html,body {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 300;
+    padding: 18px;
 }
 
 @media screen and (min-width: 1024px) { 
 
+    .title__desktop {
+        display: inline;
+    }
+
+    .title__mobile {
+        display: none;
+    }
+
    .caixa{     
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* padding-left: 100%;
-    padding-right: 100%; */
+    width: 500px;
+    display: inline;
+    /* flex-direction: row; */
+    padding-left: 100%;
+    padding-right: 100%;
     position: absolute;
 }
 
     .logo{
-        display: none;
-        /* position: static; */
-        /* position: relative ;  */
-        /* top:0px;  */
-        /* right: -200px; */
-        /* width: 65%; */
+        /* display: none; */
+        position: relative;
+        top:0px; 
+        right: -300px;
+        width: 65%;
     }
    
-    /* section{
+    /* .destaque{
         column-count:2 ;
         column-width: 100em;
     } */
@@ -305,7 +319,7 @@ html,body {
         display: flex;
         justify-content: center;
         border-radius: 5px;
-        margin-left: 30rem;
+        margin-left: 30%;
         margin-bottom: 2rem;
     }  
     
