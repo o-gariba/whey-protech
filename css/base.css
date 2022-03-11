@@ -25,6 +25,7 @@ body {
 
 .planos {
     background-color: var(--branco); 
+
 }
 
 .planos__cartoes {
@@ -66,8 +67,9 @@ body {
 
     background-color: var(--cinza-claro);
 
+
     width: 100%;
-    max-width: 300px;
+    max-width: 300px; 
 
     margin-bottom: 2rem;
 
@@ -141,9 +143,18 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+    .planos {
+        margin: 0 5rem;
+    }    
+
     .planos__cartoes {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .cartao {
+        width: 500px;
+        min-width: 500px;
     }
 }
 
