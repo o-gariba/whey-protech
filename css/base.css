@@ -23,7 +23,6 @@ body {
 
 .depoimentos {
     background-color: var(--cinza-escuro);
-    /* padding: 2rem; */
 }
 
 .bg__branco__depoimentos {
@@ -46,7 +45,9 @@ body {
 .cartao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* justify-content: space-evenly; */
+
+    padding: 0 5rem;
 }
 
 .depoimentos__cartoes {
@@ -55,8 +56,9 @@ body {
 
     background-color: var(--amarelo-principal);
 
-    width: 100%;
-    max-width: 300px;
+    /* width: 100%; */
+    width: 400px;
+    /* max-width: 300px; */
     /* height: 527.8px; */
 
     margin-bottom: 2rem;
@@ -90,6 +92,8 @@ body {
 }
 
 .imagem__depoimento {
+    margin: 1rem 0;
+
     border-radius: 100%;
     width: 13rem;
 
@@ -100,7 +104,7 @@ body {
     color: var(--preto);
     font-style: italic;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 0 50px 20px 50px;
 }
 
 @media screen and (min-width: 1024px) {
