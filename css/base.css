@@ -46,7 +46,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.botao {
+.botao__planos {
     text-align: center;
 
     width: 100%;
@@ -61,7 +61,7 @@ body {
     border-radius: 15px;
 }
 
-.cartao {
+.cartao__planos {
     display: flex;
     flex-direction: column;
 
@@ -151,7 +151,7 @@ body {
         justify-content: space-around;
     }
 
-    .cartao {
+    .cartao__planos {
         width: 500px;
         min-width: 500px;
     }
