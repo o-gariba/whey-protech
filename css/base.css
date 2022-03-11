@@ -54,10 +54,12 @@ body {
     display: flex;
     flex-direction: column;
 
+    /* justify-content: center; */
+    align-self: center;
+
     background-color: var(--amarelo-principal);
 
-    /* width: 100%; */
-    width: 400px;
+    width: 330px;
     /* max-width: 300px; */
     /* height: 527.8px; */
 
@@ -115,5 +117,9 @@ body {
 
     .depoimentos {
         padding: 0 8rem;
+    }
+
+    .depoimentos__cartoes {
+        width: 400px;
     }
 }
