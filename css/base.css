@@ -293,17 +293,17 @@ html,body {
 }
 
 .bem-estar__item--social{
-    background-image: url(icone-social.png);
+    background-image: url(assets/icone-social.png);
     background-size: 10%;
 }
 
 .bem-estar__item--fisico{
-    background-image: url(icone-fisico.png);
+    background-image: url(assets/icone-fisico.png);
     background-size: 10%;
 }
 
 .bem-estar__item--emocional{
-    background-image: url(icone-emocional.png);
+    background-image: url(assets/icone-emocional.png);
     background-size: 10%;
 }
 
@@ -344,17 +344,17 @@ html,body {
     }
 
     .bem-estar__item--social{
-        background-image: url(icone-social.png);
+        background-image: url(assets/icone-social.png);
         background-size: 10%;
     }
 
     .bem-estar__item--fisico{
-        background-image: url(icone-fisico.png);
+        background-image: url(assets/icone-fisico.png);
         background-size: 10%;
     }
 
     .bem-estar__item--emocional{
-        background-image: url(icone-emocional.png);
+        background-image: url(assets/icone-emocional.png);
         background-size: 10%;
     }
     
