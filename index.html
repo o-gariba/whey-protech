@@ -1,22 +1,130 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width inicial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width inicial-scale=1.0">
 
-        <title>Academia Potencial - HOME</title>
+    <title>Academia Potencial - HOME</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/reset.css">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
 
-    <body>
+<body>
+    
+    <!-- HEADER INICIO  -->
 
-        <!-- INÍCIO DA SESSÃO PLANOS -->
+    <header>
+            <ul class="menu_nav">
+                <li class="opcoes_nav_sumir">Academia mais próxima</li>
+                <li class="opcoes_nav_sumir">Blog</li>
+                <li class="opcoes_nav">Me cadastrar</li>
+                <li class="botao-header"><a href="" type="buttom">Log in</a></li>
+            </ul>
+    </header>
+
+    <!-- FIM DO HEADER -->
+
+    <!-- INICIO DO TITULO/DESTAQUE -->
+
+    <section>
+        <img src="assets/imagem-destaque-title.png" width="100%" height="100%" class="title__desktop">
+        <img src="assets/imagem-destaque-title-mobile.png" width="100%" height="100%" class="title__mobile"> 
+            <!-- <img src="assets/logo-academia-focoNoNome.png" alt="Logo Facility" class="logo"> -->
+            <!-- <div >
+                <ul class="caixa"> 
+                    <li><h1 class="titulo1">Aqui você atinge seu potencial máximo!</h1></li>
+                    <li><h2 class="titulo2">Pensamos no seu bem-estar físico, social e emocional</h2></li>
+                </ul>
+            </div> -->
+    </section>
+
+    <!-- INICIO DA SESSÃO BEM ESTAR -->
+
+    <section class="bem-estar">
+                <h2 class="bem-estar__titulo">Bem-estar é fundamental</h2>
+                <p class="bem-estar__subtitulo">Veja como promovemos</p>
+                <img src="assets/estrutura.jpg" class="bem-estar__imagem">
+
+                <section class="bem-estar__tipo">
+                    
+                    <ul class="bem-estar__lista">
+                        
+                      <li class="bem-estar__tipo">
+                        <img class="bem-estar__item-imagem" src="assets/bem-estar__social.png">
+                        <div class="bem-estar__container bem-estar__item bem-estar__item--social">
+                          <span class="item__descricao">
+                            <h3 class="item__descricao-titulo">Social</h3>
+                            <p class="item__descricao-texto">Descubra novas pessoas incríveis e estabeleça novas redes de amizades em nossos espaços de descompressão.</p>
+                          </span>
+                        </div>
+                      </li>
+
+                      <li class="bem-estar__tipo">
+                        <img class="bem-estar__item-imagem" src="assets/bem-estar__físico.png">
+                        <div class="bem-estar__container bem-estar__item bem-estar__item--fisico">
+                          <span class="item__descricao">
+                            <h3 class="item__descricao-titulo">Físico</h3>
+                            <p class="item__descricao-texto">Conte com profissionais da área da saúde mental. Esteja sempre bem com você mesmo, dentro e fora da Academia Potencial.</p>
+                          </span>
+                        </div>
+                      </li>
+
+                      <li class="bem-estar__tipo">
+                        <img class="bem-estar__item-imagem" src="assets/bem-estar__emocional.png">
+                        <div class="bem-estar__container bem-estar__item bem-estar__item--emocional">
+                          <span class="item__descricao">
+                            <h3 class="item__descricao-titulo">Emocional</h3>
+                            <p class="item__descricao-texto">Conte com profissionais da área da saúde mental. Esteja sempre bem com você mesmo, dentro e fora da Academia Potencial.</p>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- FIM DA SESSÃO BEM ESTAR -->
+    
+        <!-- INICIO DA SESSÃO DEPOIMENTOS -->
+        <section class="container depoimentos">
+
+        <h2 class="depoimentos__titulo">Veja o que as pessoas estão dizendo</h2>
+
+        <ul class="cartao">
+            <li class="depoimentos__cartoes">
+                <div class="bg__branco__depoimentos">
+                    <h3 class="cartao__depoimentos__nome">Marília G.</h3>   
+                    <p class="cartao__depoimentos__profissao">arquiteta</p>
+                </div>
+                <img src="assets/depoimentos-pessoa3.jpg" alt="mulher de óculos escuro em uma praia ensolarada" class="imagem__depoimento">
+                <p class="cartao__depoimentos__texto">Sempre que começava uma academia me desmotivava depois de algum tempo, sem entender o porquê. Ter profissionais da saúde mental foi TUDO pra mim!</p>
+                <!-- <p class="cartao__texto">&#9733; &#9733; &#9733; &#9733; &#9733;</p> -->
+            </li>
+            <li class="depoimentos__cartoes">
+                <div class="bg__branco__depoimentos">
+                    <h3 class="cartao__depoimentos__nome">Mustapha F.</h3>   
+                    <p class="cartao__depoimentos__profissao">empresário</p>
+                </div>
+                <img src="assets/depoimentos-pessoa2.jpg" alt="Homem de turbante azul sorrindo" class="imagem__depoimento">
+                <p class="cartao__depoimentos__texto">Conheci a maioria dos meus novos amigos na POTENCIAL, isso foi muito importante para minha ambientação aqui no Brasil.</p>
+                <!-- <p class="cartao__texto">&#9733; &#9733; &#9733; &#9733; &#9733;</p> -->
+            </li> 
+            <li class="depoimentos__cartoes">
+                <div class="bg__branco__depoimentos">
+                    <h3 class="cartao__depoimentos__nome">diogo M.</h3>   
+                    <p class="cartao__depoimentos__profissao">professor</p>
+                </div>
+                <img src="assets/depoimentos-pessoa1.jpg" alt="Homem de perfil, barbudo. Foto em preto e branco" class="imagem__depoimento">
+                <p class="cartao__depoimentos__texto">Sempre me senti muito estressado com o trabalho e a academia era uma preocupação a mais. Minha experiência com a POTENCIAL foi única, era o que eu precisava!</p>
+                <!-- <p class="cartao__texto">&#9733; &#9733; &#9733; &#9733; &#9733;</p> -->
+
+    <!-- FIM DA SESSÃO DEPOIMENTOS -->
+    
+    <!-- INÍCIO DA SESSÃO PLANOS -->
 
         <section class="planos container">
             <h2 class="planos__titulo">Planos e Benefícios</h2>
@@ -41,6 +149,23 @@
         </section>
 
         <!-- FIM DA SESSÃO PLANOS -->
+    
+        <!-- INICIO DO FOOTER -->
 
-    </body>
+    <footer class="containerFooter">
+            <div class="rodapeItens2">Rua Vergueiro, 3185<br>Vila Mariana, São Paulo</div>
+            <div class="rodapeItens3">(XX) 9 9999-9999</div>
+            <div class="rodapeItens1">
+                <ul class="rodape__redesSociais">
+                    <li><a href="#" class="rodape__midia"><img src="assets/twitter-icone.png" alt="icone twitter" class="rodape__midia-icone">Twitter</a></li>
+                    <li><a href="#" class="rodape__midia"><img src="assets/instagram-icone.png" alt="icone instagram" class="rodape__midia-icone">Instagram</a></li>
+                    <li><a href="#" class="rodape__midia"><img src="assets/email-icone.png" alt="icone email" class="rodape__midia-icone">Email</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- FIM DO FOOTER -->
+
+</body>
+
 </html>
