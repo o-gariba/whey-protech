@@ -388,10 +388,13 @@ html,body {
     
 /*   DEPOIMENTOS   */
     
-    .depoimentos {
+.depoimentos {
     background-color: var(--cinza-escuro);
-    padding: 2rem;
 }
+
+.bg__branco__depoimentos {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
 
 .depoimentos__titulo {
     color: var(--preto);
@@ -401,32 +404,34 @@ html,body {
     text-transform: uppercase;
     text-align: center;
 
-    margin-top: 2rem;
+    padding-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.cartao__depoimentos{
+.cartao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    padding: 0 5rem;
 }
 
 .depoimentos__cartoes {
     display: flex;
     flex-direction: column;
+  
+    align-self: center;
 
     background-color: var(--amarelo-principal);
 
-    width: 100%;
-    max-width: 300px;
+    width: 330px;
 
     margin-bottom: 2rem;
 
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 10px 5px #00000030;
 }
 
-.cartao__nome {
+.cartao__depoimentos__nome {
     color: var(--preto);
     font-weight: 400;
     font-size: 2rem;
@@ -439,33 +444,49 @@ html,body {
     padding-right: .5rem;
 }
 
-.cartao__profissao {
+.cartao__depoimentos__profissao {
     color: var(--preto);
     font-weight: 150;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: var(--montserrat);
     text-align: center;
 
-    margin-top: 1rem;
+    margin-top: .7rem;
     margin-bottom: 1rem; 
 }
 
-.cartao__texto-depoimentos {
+.imagem__depoimento {
+    margin: 1rem 0;
+
+    border-radius: 100%;
+    width: 13rem;
+
+    align-self: center;
+}
+
+.cartao__depoimentos__texto {
     color: var(--preto);
-    font-weight: 250;
     font-style: italic;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 0 50px 20px 50px;
 }
 
 @media screen and (min-width: 1024px) {
-    .cartao__depoimentos {
+    .cartao {
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .depoimentos {
+        padding: 0 8rem;
+    }
+
+    .depoimentos__cartoes {
+        width: 400px;
+    }
 }
     
-/*  FIM DEPOIMENTOS    */
+    /*  FIM DEPOIMENTOS    */
     
     /* PLANOS E BENEFICIOS */
 
