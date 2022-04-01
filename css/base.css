@@ -38,8 +38,6 @@ html,body {
     padding: 1rem;
 }
 
-
-
 .botao-header{
     color: var(--amarelo-principal); 
     background: #000;
@@ -57,7 +55,6 @@ html,body {
     border-color:#000;
     border-radius: 15px;
 }
-
 
 .opcoes_nav_sumir{
     display: none;
@@ -229,7 +226,6 @@ html,body {
 
 /* FIM TITULO E DESTAQUE */
 
-    
 /*   BEM ESTAR   */
 
 .bem-estar {
@@ -486,9 +482,9 @@ html,body {
     }
 }
     
-    /*  FIM DEPOIMENTOS    */
+/*  FIM DEPOIMENTOS    */
     
-    /* PLANOS E BENEFICIOS */
+/* PLANOS E BENEFICIOS */
 
 .planos {
     background-color: var(--branco); 
@@ -512,7 +508,7 @@ html,body {
     margin-bottom: 3rem;
 }
 
-.botao {
+.botao__planos {
     text-align: center;
 
     width: 100%;
@@ -526,27 +522,27 @@ html,body {
     border: 1px solid;
     border-radius: 15px;
 }
-
-.cartao {
+  
+.cartao__planos {
     display: flex;
     flex-direction: column;
 
     background-color: var(--cinza-claro);
 
     width: 100%;
-    max-width: 300px;
+    max-width: 300px; 
 
     margin-bottom: 2rem;
 
     border-radius: 5px;
-    box-shadow: 0 2px 10px 5px #00000030;
+    box-shadow: 0 2px 10px 5px #00000020;
 }
 
-.cartao--basico{
+.cartao__plano__basico{
     color: var(--verde-plano-basico);
 }
 
-.cartao--completo {
+.cartao__plano__completo {
     color: var(--vermelho-plano-completo);
 }
 
@@ -570,7 +566,7 @@ html,body {
 
     width: 70%;
 
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
 
     margin: 1rem 0;
 
@@ -597,20 +593,29 @@ html,body {
     box-shadow: 0 2px 10px 2px #00000020;
 }
 
-.botao--basico {
+.botao__plano__basico {
     background-color: var(--verde-plano-basico);
     color: var(--branco);
 }
 
-.botao--completo {
+.botao__plano__completo {
     background-color: var(--vermelho-plano-completo);
     color: var(--branco);
 }
 
 @media screen and (min-width: 1024px) {
+    .planos {
+        margin: 0 5rem;
+    }    
+
     .planos__cartoes {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .cartao__planos {
+        width: 500px;
+        min-width: 500px;
     }
 }
 
