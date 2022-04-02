@@ -33,7 +33,6 @@ html,body {
     display: flex;
     flex-direction: row;
     align-items: center; 
-    /* font-size: 10px; */
     justify-content: space-evenly;
     padding: 1rem;
 }
@@ -62,7 +61,6 @@ html,body {
 
 .opcoes_nav {
     display: inline;
-    /* margin: 0 60px 0 0; */
     color: #000;
     font-size: 20px;
 }
@@ -70,7 +68,6 @@ html,body {
 @media screen and (min-width: 1024px){
 .botao-header {
     color: var(--amarelo-principal);
-    /* background: #000; */
     
     display: flex;
     height: 52px;
@@ -133,22 +130,14 @@ html,body {
 }
 
 .caixa{
-    /* position: absolute; */
+
     top: 90px;
     right: -250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-color: var(--amarelo-principal); */
-    /* column-width: 100em; */
-    /* padding: .75rem; */
-    /* height: 15%; */
 }
-    
-/* section{
-    background-color: #FEDF11;
-} */
 
 .navegacao{
     position: absolute;
@@ -163,7 +152,6 @@ html,body {
     text-align: center ;
     font-size: max(30px, 5vw);
     font-weight: 500;
-    /* padding:.9rem 0; */
 }
 
 .titulo2 {
@@ -186,33 +174,23 @@ html,body {
    .caixa{     
     width: 500px;
     display: inline;
-    /* flex-direction: row; */
     padding-left: 100%;
     padding-right: 100%;
     position: absolute;
 }
 
     .logo{
-        /* display: none; */
         position: relative;
         top:0px; 
         right: -300px;
         width: 65%;
     }
-   
-    /* .destaque{
-        column-count:2 ;
-        column-width: 100em;
-    } */
     
     .titulo1 {
         text-align: justify ;
         font-size: 300;
         font-weight: 700;
-        position: absolute; 
-        /* top: 50px;  */
-        /* right: 790px; */
-        
+        position: absolute;   
     }
 
     .titulo2{
@@ -220,7 +198,6 @@ html,body {
         font-size: 20px;
         position: absolute; 
         top: 70px; 
-        /* right: 845px; */
     }
 } 
 
