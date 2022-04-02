@@ -630,7 +630,7 @@ display: flex;
 flex-flow: row-reverse wrap;
 justify-content: space-around;
 align-items: center;
-padding: 1rem 1rem;
+padding: 1rem 0rem;
 background: #FEDF11BF;
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
@@ -638,24 +638,23 @@ font-weight: 300;
 
 .rodape__redesSociais {
     margin: 1rem;
-    /* display: flex; */
 }
 
 .rodapeItens2{
     font-size: 1.25rem;
+    text-align: center;
     font-family: 'Montserrat';
 }
 
 .rodapeItens3{
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
 }
 
 .rodape__midia{
-    font-size: 2 rem;
+    font-size: 1rem;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     padding: .5rem;
 }
